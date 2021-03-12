@@ -1,0 +1,33 @@
+body {
+	background-color: skyblue;
+}
+h1 {
+    background-color: pink;
+    color: black;
+    text-align: center;
+	text-transform: uppercase;
+}
+h2{ 
+    color:blue;
+	text-align: center;
+	text-transform: uppercase;
+ }
+ h3{
+ 	color:black;
+	text-align: center;
+ }
+ li{
+    margin: 0px 20px;
+    text-align: center;
+    color: green; 
+     display: block;
+ }
+ img{
+ 	width: 400px;
+	display: block;
+	margin: 0px auto;
+}
+p {
+	text-align: center;
+	text-orientation: center;
+}

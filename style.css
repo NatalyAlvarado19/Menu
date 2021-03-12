@@ -1,0 +1,93 @@
+body {
+   
+	background-color: skyblue;
+
+	background: 
+	     linear-gradient(
+	     	90deg,
+	     	rgba(0,0,0,100%),
+		    rgba(0,0,0,90%),
+		    rgba(0,0,0,80%),
+		    rgba(0,0,0,35%),
+		    rgba(0,0,0,0%)) no-repeat, 
+             url(img/pollo1.jpg);
+
+     background-size: cover;
+     height:600px;
+
+}
+h1 {
+	background-color: pink;
+	color:white;
+	text-align: center;
+	text-transform: uppercase;
+}
+.nav {
+	float: right; 
+	margin: 0px 5px;
+	width: 60%;
+}
+
+/*este es un div*/
+
+.panel {
+	width: 40%;
+	height:600px;
+	background-color: skyblue;
+	color: white;
+	opacity: 75%;
+    padding: 50px;
+    padding-top: 60px;
+}
+
+/*-------------------------------------
+  REGLA PARA ITEMS DE LISTA DESORDENADA
+----------------------------------------*/
+.nav ul li { 
+    float: right;
+    margin: 1px 25px;
+    text-align: center;
+    background-color: skyblue; 
+    display: inline-block;
+    color: white;
+ }
+
+.nav ul li:hover {
+    background-color: pink;
+    border: 2px solid pink;
+    border-radius: 25px 10px; 
+    }
+
+    li {
+    	color: white;
+        padding: 30px 0px 0px 0px;
+    }
+    a{
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    display: block;
+    }
+
+ a { 
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    width: 110px;
+    font-family: 'Sofia';
+    font-size: 22px;
+    color: white;
+  }
+
+a:hover { 
+    color: blue;
+
+ }
+
+p {
+	text-align: justify;
+}
+img { 
+    height: 100px
+    
+ }
